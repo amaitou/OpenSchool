@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OpenSchool/static/css/main.bc833bd0.chunk.css",
-    "main.js": "/OpenSchool/static/js/main.80fa3589.chunk.js",
-    "main.js.map": "/OpenSchool/static/js/main.80fa3589.chunk.js.map",
+    "main.js": "/OpenSchool/static/js/main.adae7ce6.chunk.js",
+    "main.js.map": "/OpenSchool/static/js/main.adae7ce6.chunk.js.map",
     "runtime-main.js": "/OpenSchool/static/js/runtime-main.9bd4ef8b.js",
     "runtime-main.js.map": "/OpenSchool/static/js/runtime-main.9bd4ef8b.js.map",
     "static/js/2.d6d0c4ad.chunk.js": "/OpenSchool/static/js/2.d6d0c4ad.chunk.js",
@@ -60,6 +60,6 @@
     "static/js/runtime-main.9bd4ef8b.js",
     "static/js/2.d6d0c4ad.chunk.js",
     "static/css/main.bc833bd0.chunk.css",
-    "static/js/main.80fa3589.chunk.js"
+    "static/js/main.adae7ce6.chunk.js"
   ]
 }
