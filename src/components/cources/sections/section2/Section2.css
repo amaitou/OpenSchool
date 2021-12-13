@@ -1,0 +1,27 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.s2 .container .row .c .card {
+  transition: all ease 0.3s; }
+  .s2 .container .row .c .card .card-body {
+    background-color: #FBFCFC; }
+    .s2 .container .row .c .card .card-body .top .teacher {
+      font-weight: 700; }
+    .s2 .container .row .c .card .card-body .top .stars .fas {
+      color: #e91e63;
+      font-size: 10px; }
+    .s2 .container .row .c .card .card-body .desc {
+      border-left: 2px solid #e91e63; }
+  .s2 .container .row .c .card:hover {
+    transform: scale(1.03); }
+
+/*# sourceMappingURL=Section2.css.map */

@@ -1,0 +1,14 @@
+
+@import '../../props' ;
+
+.title
+{
+	.sub-title
+	{
+		@include sub_title() ;
+		span
+		{
+			@include span_title() ;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.sub .container .row .c .right-side .big-title {
+  font-size: 25px;
+  color: #e91e63;
+  font-weight: bolder; }
+.sub .container .row .c .right-side .text {
+  font-size: 17px; }
+
+/*# sourceMappingURL=Sub.css.map */

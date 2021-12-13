@@ -1,0 +1,34 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.hero .container .title .sub-title {
+  font-size: 30px;
+  font-weight: 800; }
+  .hero .container .title .sub-title span {
+    color: #e91e63; }
+.hero .container .row .c .left-side .title {
+  font-size: 30px;
+  font-weight: 800;
+  font-weight: bolder; }
+  .hero .container .row .c .left-side .title span {
+    color: #e91e63; }
+.hero .container .row .c .left-side .desc {
+  font-size: 17px; }
+.hero .container .row .c .right-side .dc a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #e91e63;
+  animation: coloring ease 2s infinite; }
+  .hero .container .row .c .right-side .dc a .fas {
+    animation: translation ease-in-out 1.5s infinite; }
+
+/*# sourceMappingURL=Hero.css.map */

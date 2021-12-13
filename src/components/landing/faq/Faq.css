@@ -1,0 +1,23 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.faq .container .title .sub-title {
+  font-size: 30px;
+  font-weight: 800; }
+  .faq .container .title .sub-title span {
+    color: #e91e63; }
+.faq .container .accordion .accordion-item .accordion-button {
+  font-weight: bolder;
+  color: black;
+  background-color: white; }
+
+/*# sourceMappingURL=Faq.css.map */

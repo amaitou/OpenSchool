@@ -1,0 +1,45 @@
+@import '../../../../props' ;
+
+.s2
+{
+	.container
+	{
+		.row
+		{
+			.c
+			{
+				.card
+				{
+					transition: all ease 0.3s ;
+					.card-body
+					{
+						background-color: #FBFCFC;
+						.top
+						{
+							.teacher
+							{
+								font-weight: 700 ;
+							}
+							.stars
+							{
+								.fas
+								{
+									color: $color ;
+									font-size: 10px ;
+								}
+							}
+						}
+						.desc
+						{
+							border-left: 2px solid $color ;
+						}
+					}
+					&:hover
+					{
+						transform: scale(1.03);
+					}
+				}
+			}
+		}
+	}
+}

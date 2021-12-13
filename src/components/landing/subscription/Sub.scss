@@ -1,0 +1,28 @@
+
+@import '../../../props' ;
+
+.sub
+{
+	.container
+	{
+		.row
+		{
+			.c
+			{
+				.right-side
+				{
+					.big-title
+					{
+						font-size: 25px ;
+						color: $color ;
+						font-weight: bolder ;
+					}
+					.text
+					{
+						font-size: 17px ;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.leaders .container .title .sub-title {
+  font-size: 30px;
+  font-weight: 800; }
+  .leaders .container .title .sub-title span {
+    color: #e91e63; }
+.leaders .container ._b .leader {
+  width: 350px;
+  border: 1px grey solid;
+  border-radius: 10px; }
+  .leaders .container ._b .leader .name {
+    font-weight: bolder;
+    font-size: 20px; }
+  .leaders .container ._b .leader .desc {
+    font-size: 15px;
+    border-left: 2px solid #e91e63; }
+  .leaders .container ._b .leader .leader-footer img {
+    transition: all ease 0.5s;
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey; }
+  .leaders .container ._b .leader .leader-footer .profile-names .skill, .leaders .container ._b .leader .leader-footer .profile-names .nickname {
+    font-size: 15px;
+    font-weight: bold; }
+  .leaders .container ._b .leader:hover .leader-footer img {
+    transform: rotate(360deg); }
+
+/*# sourceMappingURL=Leaders.css.map */

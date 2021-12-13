@@ -1,0 +1,35 @@
+
+@import '../../../props' ;
+
+.hero
+{
+	.container
+	{
+		.row
+		{
+			.c
+			{
+				.left-side
+				{
+					.title
+					{
+						font-size: 30px ;
+						font-weight: bolder;
+						span
+						{
+							color: $color ;
+						}
+					}
+					.sub-title
+					{
+						font-weight:bold;
+					}
+					.desc
+					{
+						font-size: 17px ;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+
+$color: #e91e63 ;
+
+@keyframes translation
+{
+	0%, 100%
+	{
+		transform: translateX(0);
+		opacity: 1;
+	}
+	50%
+	{
+		transform: translateX(10px);
+		opacity: 0.3;
+	}
+}
+
+
+@keyframes coloring
+{
+	0%, 100%
+	{
+		color: $color ;
+	}
+	50%
+	{
+		color: grey ;
+	}
+}
+
+@mixin sub_title()
+{
+	font-size: 30px;
+	font-weight: 800;
+}
+
+@mixin span_title()
+{
+	color: #e91e63 ;
+}
+
+@mixin under_title()
+{
+	font-weight: bolder;
+	text-decoration: none;
+	color: $color ;
+	animation: coloring ease 2s infinite;
+}
+
+@mixin under_title_icon()
+{
+	animation: translation ease-in-out 1.5s infinite ;
+}

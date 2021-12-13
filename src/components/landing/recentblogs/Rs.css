@@ -1,0 +1,21 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+._rs .container ._s .rs a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #e91e63;
+  animation: coloring ease 2s infinite; }
+  ._rs .container ._s .rs a .fas {
+    animation: translation ease-in-out 1.5s infinite; }
+
+/*# sourceMappingURL=Rs.css.map */

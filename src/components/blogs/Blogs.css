@@ -1,0 +1,19 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.title .sub-title {
+  font-size: 30px;
+  font-weight: 800; }
+  .title .sub-title span {
+    color: #e91e63; }
+
+/*# sourceMappingURL=Blogs.css.map */

@@ -1,0 +1,37 @@
+
+@import '../../../props' ;
+
+.stats
+{
+	.container
+	{
+		.title
+		{
+			.sub-title
+			{
+				@include sub_title() ;
+				span
+				{
+					@include span_title() ;
+				}
+			}
+		}
+		._box
+		{
+			.stat
+			{
+				width: 300px ;
+				.title
+				{
+					font-weight: bold;
+				}
+				.num
+				{
+					font-size: 30px;
+					font-weight: 800;
+					color: $color ;
+				}
+			}
+		}
+	}
+}

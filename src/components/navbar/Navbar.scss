@@ -1,0 +1,106 @@
+@import '../../props' ;
+
+.navbar
+{
+	background-color: white ;
+	transition: ease 0.3s ;
+	.container
+	{
+		.navbar-brand
+		{
+			font-weight: bolder;
+			letter-spacing: 2px;
+			font-size: 20px;
+			color: black ;
+			span
+			{
+				color: $color ;
+			}
+			i
+			{
+				transition: 0.5s ;
+			}
+			&:hover
+			{
+				i
+				{
+					transform: rotate(360deg);
+				}
+			}
+		}
+		.collapse
+		{
+			ul
+			{
+				li
+				{
+					a
+					{
+						color: black ;
+						font-weight: bolder;
+						transition: 0.3s ;
+					}
+				}
+			}
+		}
+	}
+}
+
+.hover, .active
+{
+	&:before, &:after
+	{
+		content: '' ;
+		height: 2px ;
+		width: 100% ;
+		position: absolute ;
+		background-color: $color;
+		transition: all ease 0.3s ;
+		left: 0 ;
+	}
+}
+
+.hover
+{
+	&:before, &:after
+	{
+		opacity: 0 ;
+	}
+	&:before
+	{
+		top: -10% ;
+	}
+	&:after
+	{
+		bottom: -30% ;
+	}
+	&:hover
+	{
+		&:before
+		{
+			top: 0 ;
+			opacity: 1 ;
+		}
+		&:after
+		{
+			bottom: 0 ;
+			opacity: 1 ;
+		}
+	}
+}
+
+.active
+{
+	&:before, &:after
+	{
+		opacity: 1 ;
+	}
+	&:before
+	{
+		top: 0 ;
+	}
+	&:after
+	{
+		bottom: 0 ;
+	}
+}

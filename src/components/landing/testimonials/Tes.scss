@@ -1,0 +1,64 @@
+
+@import '../../../props' ;
+
+.tes
+{
+	.container
+	{
+		.title
+		{
+			.sub-title
+			{
+				@include sub_title() ;
+				span
+				{
+					@include span_title() ;
+				}
+			}
+		}
+		.box
+		{
+			.item
+			{
+				width: 300px ;
+				.p-profile
+				{
+					.pic
+					{
+						width: 150px ;
+						height: 150px ;
+						border: 3px solid grey ;
+					}
+				}
+				.user-info
+				{
+					.name, .skill
+					{
+						font-weight: bolder;
+					}
+					.testimonial
+					{
+						font-size: 17px;
+						span
+						{
+							color: $color ;
+						}
+					}
+				}
+				.accounts
+				{
+					font-size: 20px ;
+					a
+					{
+						transition: all 0.3s;
+						color: $color ;
+						&:hover
+						{
+							color: grey ;
+						}
+					}
+				}
+			}
+		}
+	}
+}

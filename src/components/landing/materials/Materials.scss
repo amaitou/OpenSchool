@@ -1,0 +1,39 @@
+@import '../../../props' ;
+
+.materials
+{
+	.container
+	{
+		.title
+		{
+			.sub-title
+			{
+				@include sub_title() ;
+				span
+				{
+					@include span_title() ;
+				}
+			}
+		}
+		.row
+		{
+			.c
+			{
+				.i
+				{
+					img
+					{
+						width: 100px ;
+						height: 110px ;
+						transition: all ease 0.3s ;
+					}
+					h5
+					{
+						font-size: 15px ;
+						font-weight: bolder;
+					}
+				}
+			}
+		}
+	}
+}

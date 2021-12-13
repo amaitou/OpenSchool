@@ -1,0 +1,69 @@
+
+@import '../../../props' ;
+
+.leaders
+{
+	.container
+	{
+		.title
+		{
+			.sub-title
+			{
+				@include sub_title() ;
+				span
+				{
+					@include span_title() ;
+				}
+			}
+		}
+		._b
+		{
+			.leader
+			{
+				
+				width: 350px ;
+				border: 1px grey solid ;
+				border-radius: 10px ;
+				.name
+				{
+					font-weight: bolder;
+					font-size: 20px;
+				}
+				.desc
+				{
+					font-size: 15px;
+					border-left: 2px solid $color ;
+				}
+
+				.leader-footer
+				{
+					img
+					{
+						transition: all ease 0.5s;
+						width: 50px ;
+						height: 50px ;
+						border: 2px solid grey ;
+					}
+					.profile-names
+					{
+						.skill, .nickname
+						{
+							font-size: 15px;
+							font-weight: bold;
+						}
+					}
+				}
+				&:hover
+				{
+					.leader-footer
+					{
+						img
+						{
+							transform: rotate(360deg);
+						}
+					}
+				}
+			}
+		}
+	}
+}

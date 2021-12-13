@@ -1,0 +1,25 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.s1 .container .d .b {
+  transition: all ease 0.3s;
+  width: 250px;
+  background-color: #FBFCFC; }
+  .s1 .container .d .b:hover {
+    transform: scale(1.05); }
+  .s1 .container .d .b img {
+    width: 120px;
+    height: 120px; }
+  .s1 .container .d .b p {
+    font-weight: bolder; }
+
+/*# sourceMappingURL=Section1.css.map */

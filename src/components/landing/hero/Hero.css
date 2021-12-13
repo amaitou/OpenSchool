@@ -1,0 +1,23 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.hero .container .row .c .left-side .title {
+  font-size: 30px;
+  font-weight: bolder; }
+  .hero .container .row .c .left-side .title span {
+    color: #e91e63; }
+.hero .container .row .c .left-side .sub-title {
+  font-weight: bold; }
+.hero .container .row .c .left-side .desc {
+  font-size: 17px; }
+
+/*# sourceMappingURL=Hero.css.map */

@@ -1,0 +1,77 @@
+@import '../../props' ;
+
+.footer
+{
+	background-color: #F2F3F4 ;
+	.container
+	{
+		.footer-top
+		{
+			.a
+			{
+				cursor: pointer;
+				transition: all ease 0.3s;
+				border-radius: 50% ;
+				border: 1px solid $color ;
+				a
+				{
+					transition: all ease 0.3s;
+					font-size: 15px ;
+					color: $color ;
+				}
+				&:hover
+				{
+					background-color: $color ;
+					a
+					{
+						color: white;
+					}
+				}
+			}
+		}
+		.row
+		{
+			.c
+			{
+				.s
+				{
+					.footer-title
+					{
+						color: $color ;
+						font-weight: bolder;
+						font-size: 20px ;
+					}
+					.footer-e-mail
+					{
+						font-weight: 800;
+					}
+					.link
+					{
+						font-size: 20px ;
+						font-weight: bolder;
+					}
+					.links
+					{
+						a
+						{
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		.copyrights
+		{
+			p
+			{
+				font-weight: bolder;
+				font-size: 15px ;
+				a
+				{
+					color: $color ;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

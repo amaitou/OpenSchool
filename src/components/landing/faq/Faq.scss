@@ -1,0 +1,32 @@
+
+@import '../../../props' ;
+
+.faq
+{
+	.container
+	{
+		.title
+		{
+			.sub-title
+			{
+				@include sub_title() ;
+				span
+				{
+					@include span_title() ;
+				}
+			}
+		}
+		.accordion
+		{
+			.accordion-item
+			{
+				.accordion-button
+				{
+					font-weight: bolder;
+					color: black ;
+					background-color: white ;
+				}
+			}
+		}
+	}
+}

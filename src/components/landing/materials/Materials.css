@@ -1,0 +1,26 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.materials .container .title .sub-title {
+  font-size: 30px;
+  font-weight: 800; }
+  .materials .container .title .sub-title span {
+    color: #e91e63; }
+.materials .container .row .c .i img {
+  width: 100px;
+  height: 110px;
+  transition: all ease 0.3s; }
+.materials .container .row .c .i h5 {
+  font-size: 15px;
+  font-weight: bolder; }
+
+/*# sourceMappingURL=Materials.css.map */

@@ -1,0 +1,56 @@
+
+@import '../../../props' ;
+
+.hero
+{
+	.container
+	{
+		.title
+		{
+			.sub-title
+			{
+				@include sub_title() ;
+				span
+				{
+					@include span_title() ;
+				}
+			}
+		}
+		.row
+		{
+			.c
+			{
+				.left-side
+				{
+					.title
+					{
+						@include sub-title() ;
+						font-weight: bolder ;
+						span
+						{
+							@include span_title() ;
+						}
+					}
+					.desc
+					{
+						font-size: 17px ;
+					}
+				}
+				.right-side
+				{
+					.dc
+					{
+						a
+						{
+							@include under_title() ;
+							.fas
+							{
+								@include under_title_icon() ;	
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

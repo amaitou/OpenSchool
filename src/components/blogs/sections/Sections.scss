@@ -1,0 +1,32 @@
+
+@import '../../../props' ;
+
+.sections
+{
+	.container
+	{
+		._s
+		{
+			.c
+			{
+				.card
+				{
+					transition: all ease 0.3s;
+					&:hover
+					{
+						transform: scale(1.03);
+					}
+
+					.card-body
+					{
+						.card-title
+						{
+							font-weight: 800;
+							font-size: 20px ;
+						}
+					}
+				}
+			}
+		}
+	}
+}

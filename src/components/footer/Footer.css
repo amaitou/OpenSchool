@@ -1,0 +1,46 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.footer {
+  background-color: #F2F3F4; }
+  .footer .container .footer-top .a {
+    cursor: pointer;
+    transition: all ease 0.3s;
+    border-radius: 50%;
+    border: 1px solid #e91e63; }
+    .footer .container .footer-top .a a {
+      transition: all ease 0.3s;
+      font-size: 15px;
+      color: #e91e63; }
+    .footer .container .footer-top .a:hover {
+      background-color: #e91e63; }
+      .footer .container .footer-top .a:hover a {
+        color: white; }
+  .footer .container .row .c .s .footer-title {
+    color: #e91e63;
+    font-weight: bolder;
+    font-size: 20px; }
+  .footer .container .row .c .s .footer-e-mail {
+    font-weight: 800; }
+  .footer .container .row .c .s .link {
+    font-size: 20px;
+    font-weight: bolder; }
+  .footer .container .row .c .s .links a {
+    text-decoration: none; }
+  .footer .container .copyrights p {
+    font-weight: bolder;
+    font-size: 15px; }
+    .footer .container .copyrights p a {
+      color: #e91e63;
+      text-decoration: none; }
+
+/*# sourceMappingURL=Footer.css.map */

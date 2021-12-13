@@ -1,0 +1,23 @@
+
+@import '../../../props' ;
+
+._rs
+{
+	.container
+	{
+		._s
+		{
+			.rs
+			{
+				a
+				{
+					@include under_title() ;
+					.fas
+					{
+						@include under_title_icon() ;	
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.teachers .container .title .sub-title {
+  font-size: 30px;
+  font-weight: 800; }
+  .teachers .container .title .sub-title span {
+    color: #e91e63; }
+.teachers .container .row .c .card {
+  border-radius: 10px;
+  transition: all ease 0.3s; }
+  .teachers .container .row .c .card .overlay {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all ease 0.3s;
+    opacity: 0; }
+    .teachers .container .row .c .card .overlay .accounts a {
+      color: #e91e63;
+      font-size: 20px; }
+      .teachers .container .row .c .card .overlay .accounts a i {
+        transition: all ease 0.3s; }
+        .teachers .container .row .c .card .overlay .accounts a i:hover {
+          transform: translateY(-8px); }
+  .teachers .container .row .c .card .card-img-top {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; }
+  .teachers .container .row .c .card:hover {
+    transform: scale(1.03); }
+    .teachers .container .row .c .card:hover .overlay {
+      opacity: 1; }
+  .teachers .container .row .c .card .card-footer .profile-name, .teachers .container .row .c .card .card-footer .material {
+    font-weight: bolder; }
+
+/*# sourceMappingURL=Teachers.css.map */

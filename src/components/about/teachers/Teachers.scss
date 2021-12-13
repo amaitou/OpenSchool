@@ -1,0 +1,76 @@
+
+@import '../../../props' ;
+
+.teachers
+{
+	.container
+	{
+		.title
+		{
+			.sub-title
+			{
+				@include sub_title() ;
+				span
+				{
+					@include span_title() ;
+				}
+			}
+		}
+		.row
+		{
+			.c
+			{
+				.card
+				{
+					border-radius: 10px ;
+					transition: all ease 0.3s;
+					.overlay
+					{
+						border-radius: 10px ;
+						background-color: rgba(0, 0, 0, .8);
+						transition: all ease 0.3s ;
+						opacity: 0;
+						.accounts
+						{
+							a
+							{
+								color: $color ;
+								font-size: 20px ;
+								i
+								{
+									transition: all ease 0.3s ;
+									&:hover
+									{
+										transform: translateY(-8px);
+									}
+								}
+							}
+						}
+
+					}
+					.card-img-top
+					{
+						border-top-right-radius: 10px ;
+						border-top-left-radius: 10px ;
+					}
+
+					&:hover
+					{
+						transform: scale(1.03);
+						.overlay
+						{
+							opacity: 1;
+						}
+					}
+					.card-footer
+					{
+						.profile-name, .material
+						{
+							font-weight: bolder;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+@keyframes translation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 1; }
+  50% {
+    transform: translateX(10px);
+    opacity: 0.3; } }
+@keyframes coloring {
+  0%, 100% {
+    color: #e91e63; }
+  50% {
+    color: grey; } }
+.navbar {
+  background-color: white;
+  transition: ease 0.3s; }
+  .navbar .container .navbar-brand {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: black; }
+    .navbar .container .navbar-brand span {
+      color: #e91e63; }
+    .navbar .container .navbar-brand i {
+      transition: 0.5s; }
+    .navbar .container .navbar-brand:hover i {
+      transform: rotate(360deg); }
+  .navbar .container .collapse ul li a {
+    color: black;
+    font-weight: bolder;
+    transition: 0.3s; }
+
+.hover:before, .hover:after, .active:before, .active:after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background-color: #e91e63;
+  transition: all ease 0.3s;
+  left: 0; }
+
+.hover:before, .hover:after {
+  opacity: 0; }
+.hover:before {
+  top: -10%; }
+.hover:after {
+  bottom: -30%; }
+.hover:hover:before {
+  top: 0;
+  opacity: 1; }
+.hover:hover:after {
+  bottom: 0;
+  opacity: 1; }
+
+.active:before, .active:after {
+  opacity: 1; }
+.active:before {
+  top: 0; }
+.active:after {
+  bottom: 0; }
+
+/*# sourceMappingURL=Navbar.css.map */

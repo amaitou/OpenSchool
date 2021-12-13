@@ -1,0 +1,32 @@
+
+@import '../../../../props' ;
+
+.s1
+{
+	.container
+	{
+		.d
+		{
+			.b
+			{
+				transition: all ease 0.3s;
+				&:hover
+				{
+					transform: scale(1.05);
+				}
+				
+				width: 250px ;
+				background-color: #FBFCFC ;
+				img
+				{
+					width: 120px ;
+					height: 120px;
+				}
+				p
+				{
+					font-weight: bolder;
+				}
+			}
+		}
+	}
+}
