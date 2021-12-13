@@ -27,7 +27,7 @@ class App extends Component
               <div className = '_body'>
                   <Routes>
                       <Route exact path = '/' element = {<Landing />} />
-                      <Route exact path = '/OpenSchool' element = {<Landing />} />
+                      <Route path = '/OpenSchool' element = {<Landing />} />
                       <Route path = '/about' element = {<About />} />
                       <Route path = '/blogs/*' element = {<Blogs />} />
                       <Route path = '/cources/*' element = {<Cources />} />
