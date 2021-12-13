@@ -25,7 +25,7 @@ class Hero extends Component
 							<div className = 'right-side text-lg-end text-center'>
 								<img className = 'w-75 img-fluid mb-5' src = {about} alt = 'about' />
 								<div className = 'mx-auto dc text-center'>
-									<Link className = 'cources text-capitalize' to = '/cources'>discover our courses <i className = 'fas fa-arrow-right ms-2'></i></Link>
+									<Link className = 'cources text-capitalize' to = '/courses'>discover our courses <i className = 'fas fa-arrow-right ms-2'></i></Link>
 								</div>
 							</div>
 						</div>
