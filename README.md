@@ -1,7 +1,7 @@
 
 ## About
 
-Single Page Application For An Educational Website
+A React Single Page Application For An Educational Website
 
 * Visit The Website From Here **[OpenSchool](https://lelouche01.github.io/OpenSchool/)**
 
