@@ -1,7 +1,7 @@
 
 let stats = [
 	{
-		name: 'cources',
+		name: 'courses',
 		number: '60'
 	},
 	{

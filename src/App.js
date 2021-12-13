@@ -7,7 +7,7 @@ import Landing from './components/landing/Landing'
 import About from './components/about/About'
 import Blogs from './components/blogs/Blogs'
 import Sb from './components/scrollbtn/Sb'
-import Cources from './components/cources/Cources'
+import Courses from './components/courses/Courses'
 import Contact from './components/contact/Contact'
 import Notfound from './components/notfound/Notfound'
 
@@ -30,7 +30,7 @@ class App extends Component
                       <Route path = '/OpenSchool' element = {<Landing />} />
                       <Route path = '/about' element = {<About />} />
                       <Route path = '/blogs/*' element = {<Blogs />} />
-                      <Route path = '/cources/*' element = {<Cources />} />
+                      <Route path = '/courses/*' element = {<Courses />} />
                       <Route path = '/contact' element = {<Contact />} />
                       <Route path = '*' element = {<Notfound />} />
                   </Routes>

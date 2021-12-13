@@ -1,6 +1,6 @@
 
 import React, {Component} from 'react'
-import {section1} from '../Data'
+import {section1} from './Data'
 import './Section1.css'
 
 class Section1 extends Component

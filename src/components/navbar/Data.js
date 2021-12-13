@@ -13,7 +13,7 @@ let navbar_items = [
 		icon: 'fas fa-blog',
 	},
 	{
-		name: 'cources',
+		name: 'courses',
 		icon: 'fas fa-book-open',
 	},
 	{

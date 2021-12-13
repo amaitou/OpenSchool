@@ -4,17 +4,18 @@ import {Routes, Route} from 'react-router-dom'
 import Pagination from '../pagination/Pagination'
 import Section1 from './sections/section1/Section1'
 import Section2 from './sections/section2/Section2'
+import './Courses.css'
 
-class Cources extends Component
+class Courses extends Component
 {
 	state = {
 		array: [
 			{
-				path: '/cources/',
+				path: '/courses/',
 				number: 1
 			},
 			{
-				path: '/cources/section2',
+				path: '/courses/section2',
 				number: 2
 			}
 		]
@@ -25,7 +26,7 @@ class Cources extends Component
 			<>
 				<div className = 'container'>
 					<div className = 'title py-3 text-center'>
-						<h4 className = 'sub-title text-capitalize'>browse our <span>cources</span></h4>
+						<h4 className = 'sub-title text-capitalize'>browse our <span>courses</span></h4>
 					</div>
 				</div>
 				<Pagination array = {this.state.array}/>
@@ -39,4 +40,4 @@ class Cources extends Component
 	}
 }
 
-export default Cources
+export default Courses
