@@ -4,7 +4,7 @@ let leaders = [
 		name: 'amine ait ouazghour',
 		desc: 'full stack javascript developer, cyber security lover and problem solver',
 		skills: 'Full Sack Developer | Pentester',
-		nickname: "lelouche01",
+		nickname: "amaitou",
 		avatar: require('../../../images/avatars/1.jpg')
 	},
 	{
