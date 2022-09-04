@@ -22,8 +22,6 @@ As it is a *React* app, you must run a few commands firstly to have the app run 
 
 ## Contact Me
 
-For Any Questions You Can Find Me on This Platforms :
-
 * [Twitter][_1]
 * [Instagram][_2]
 
