@@ -20,7 +20,12 @@ As it is a *React* app, you must run a few commands firstly to have the app run 
     npm start 
     ```
 
-## Contct me
+## Contact Me
 
-* Twitter : https://twitter.com/amait0u
-* Instagram : https://www.instagram.com/amait0u
+For Any Questions You Can Find Me on This Platforms :
+
+* [Twitter][_1]
+* [Instagram][_2]
+
+[_1]: https://twitter.com/amait0u
+[_2]: https://www.instagram.com/amait0u
