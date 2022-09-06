@@ -1,4 +1,7 @@
+----------------
+![Screenshot from 2022-09-06 05-13-31](https://user-images.githubusercontent.com/49293816/188545617-8e7e7c47-ed4b-42fe-b210-1afa7702ff28.png)
 
+----------------
 ## About
 
 A React Single-Page Application For An Educational Website
