@@ -6,7 +6,7 @@
 
 A React Single-Page Application For An Educational Website
 
-* Visit The Website From Here **[OpenSchool](https://lelouche01.github.io/OpenSchool/)**
+* Visit The Website From Here **[OpenSchool](https://amaitou.github.io/OpenSchool/)**
 
 ## Usage
 
