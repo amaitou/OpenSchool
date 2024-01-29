@@ -12,16 +12,12 @@ A React Single-Page Application For An Educational Website
 
 As it is a *React* app, you must run a few commands firstly to have the app run properly, so after downloading the repository and *cd* to the folder just type the following commands
 
-* Install missing modules
-
-    ```
-    npm install 
-    ```
-* Run the react app
-
-    ```
-    npm start 
-    ```
+```sh
+# build the image
+make build
+# run the container (app)
+make run
+```
 
 ## Contact Me
 
